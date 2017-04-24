@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?928pgf');
+    src:  url('fonts/icomoon.eot?928pgf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?928pgf') format('truetype'),
+    url('fonts/icomoon.woff?928pgf') format('woff'),
+    url('fonts/icomoon.svg?928pgf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-DB8-logo .path1:before {
+    content: "\e600";
+    color: rgb(34, 87, 141);
+}
+.icon-DB8-logo .path2:before {
+    content: "\e601";
+    margin-left: -2.7041015625em;
+    color: rgb(240, 60, 31);
+}
+.icon-DB8-logo .path3:before {
+    content: "\e602";
+    margin-left: -2.7041015625em;
+    color: rgb(34, 87, 141);
+}
+.icon-mobile:before {
+    content: "\e94e";
+}
+.icon-binoculars:before {
+    content: "\e978";
+}
+.icon-rocket:before {
+    content: "\e992";
+}
+.icon-accessibility:before {
+    content: "\e99f";
+}
+.icon-shield:before {
+    content: "\e9a1";
+}
+.icon-smile:before {
+    content: "\e9c9";
+}
+
+.rmargin{
+    padding-right:50px;
+}
+
+div.icon {
+    text-align: center;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+    font-size: .9em;
+}
+
+div.icon span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+//width: 14px;
+    height: 14px;
+    margin-right: .25em;
+    line-height: 20px;
+}
+
+.icon-large {
+    font-size: 3em;
+    width: 3em!important;
+    height: 1em!important;
+}
+
+div.icon a {
+    padding: 18px 18px 5px;
+    font-size: 9pt;
+    background-color: #fff;
+    background-position: -30px;
+    display: block;
+    float: left;
+    height: 120px;
+    width: 90pt;
+    color: #565656;
+    text-decoration: none;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    transition-property: none;
+}
+.table td.middle, .table th.middle, div.icon a {
+    vertical-align: middle;
+}
+
+div.icon span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.icon a:active, div.icon a:focus, div.icon a:hover {
+    background-position: 0;
+    -webkit-border-bottom-left-radius: inherit;
+    -moz-border-radius-bottomleft: inherit;
+    border-bottom-left-radius: inherit;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2d6ca2;
+    text-shadow: none;
+}

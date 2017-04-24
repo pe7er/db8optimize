@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.5" method="upgrade">
+	<name>com_db8optimize</name>
+	<creationDate>21 April 2017</creationDate>
+	<author>Peter Martin</author>
+	<authorEmail>joomla@db8.nl</authorEmail>
+	<authorUrl>https://db8.eu</authorUrl>
+	<copyright>Copyright 2017 Peter Martin. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>COM_DB8OPTIMIZE_XML_DESCRIPTION</description>
+
+	<!-- Scripts to run on installation -->
+	<scriptfile>script.php</scriptfile>
+
+	<!-- Media files -->
+	<media folder="media/com_db8optimize" destination="com_db8optimize">
+		<folder>css</folder>
+		<folder>images</folder>
+	</media>
+
+	<!-- Back-end files -->
+	<administration>
+		<!-- Menu entries -->
+		<menu view="dashboard">COM_DB8OPTIMIZE</menu>
+		<submenu>
+			<!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+			<menu link="option=com_db8optimize&amp;view=performance">COM_DB8OPTIMIZE_MENU_PERFORMANCE</menu>
+			<menu link="option=com_db8optimize&amp;view=seo">COM_DB8OPTIMIZE_MENU_SEO</menu>
+			<menu link="option=com_db8optimize&amp;view=usability">COM_DB8OPTIMIZE_MENU_USABILITY</menu>
+			<menu link="option=com_db8optimize&amp;view=security">COM_DB8OPTIMIZE_MENU_SECURITY</menu>
+			<menu link="option=com_db8optimize&amp;view=accessibility">COM_DB8OPTIMIZE_MENU_ACCESSIBILITY</menu>
+			<menu link="option=com_db8optimize&amp;view=mobile">COM_DB8OPTIMIZE_MENU_MOBILE</menu>
+		</submenu>
+
+		<!-- Core files -->
+		<files folder="administrator/components/com_db8optimize">
+			<filename>db8optimize.php</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>LICENSE.txt</filename>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="com_db8optimize">https://db8.eu/index.php?option=com_rdsubs&amp;view=updater&amp;format=xml&amp;element=com_db8optimize</server>
+	</updateservers>
+
+</extension>
