@@ -25,11 +25,11 @@ $items = Array(
 		'title' => 'Bing Mobile Friendliness Test',
 		'url'   => 'https://www.bing.com/webmaster/tools/mobile-friendliness?url='
 	),
-	Array(
+	/*Array(
 		'icon' => 'mobile',
 		'title' => 'Pingdom',
-		'url'   => 'https://developers.google.com/speed/pagespeed/insights/?url='
-	),
+		'url'   => 'https://tools.pingdom.com/?url='
+	),*/
 	Array(
 		'icon' => 'mobile',
 		'title' => 'WebPagetest',

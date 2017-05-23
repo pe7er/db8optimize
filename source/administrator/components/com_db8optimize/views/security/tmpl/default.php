@@ -30,7 +30,40 @@ $items = Array(
 		'title' => 'SSL Server Test',
 		'url'   => 'https://www.ssllabs.com/ssltest/?d='
 	),
-);
+	Array(
+		'icon' => 'shield',
+		'title' => 'Security Headers',
+		'url'   => 'https://securityheaders.io/?hide=on&followRedirects=on&q='
+	),
+
+
+	Array(
+		'icon' => 'shield',
+		'title' => 'mxtoolbox Open Ports',
+		'url'   => 'https://mxtoolbox.com/SuperTool.aspx?run=networktools&action=scan%3a',
+        'remove_scheme' => true
+	),
+	Array(
+		'icon' => 'shield',
+		'title' => 'mxtoolbox SPF records',
+		'url'   => 'https://mxtoolbox.com/SuperTool.aspx?run=toolpage&action=spf%3a',
+        'remove_scheme' => true
+	),
+	Array(
+		'icon' => 'shield',
+		'title' => 'mxtoolbox Blacklist',
+		'url'   => 'https://mxtoolbox.com/SuperTool.aspx?run=toolpage&action=blacklist%3a',
+		'remove_scheme' => true
+	),
+
+    Array(
+		'icon' => 'shield',
+		'title' => 'mxtoolbox Domain Health',
+		'url'   => 'https://mxtoolbox.com/domain/'
+	),
+
+
+    );
 /*
 	Array(
 		'title' => 'Quttera Scan Website',

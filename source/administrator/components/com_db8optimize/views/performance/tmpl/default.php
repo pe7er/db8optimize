@@ -30,11 +30,11 @@ $items = Array(
 		'title' => 'Yellow Lab Tools',
 		'url'   => 'http://yellowlab.tools/?url='
 	),
-	Array(
+/*	Array(
 		'icon' => 'rocket',
 		'title' => 'Pingdom',
-		'url'   => 'https://developers.google.com/speed/pagespeed/insights/?url='
-	),
+		'url'   => 'https://tools.pingdom.com/?url='
+	),*/
 	Array(
 		'icon' => 'rocket',
 		'title' => 'WebPagetest',

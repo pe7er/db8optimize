@@ -75,10 +75,19 @@ class Db8optimizeHelper
 	static public function renderPage($items)
 	{
 		$site = JURI::root();
+		$domain = parse_url($site, PHP_URL_HOST);
 
-		foreach ($items as $item): ?>
+		foreach ($items as $item):?>
 	<div class="icon">
-		<a href="<?php echo $item['url'];?><?php echo $site; ?>" target="_blank">
+		<a href="<?php echo $item['url'];?><?php
+			if( (isset($item['remove_scheme'])) && ($item['remove_scheme'] == true))
+			{
+				echo $domain;
+			}
+			else
+			{
+				echo $site;
+			}?>" target="_blank">
             <span class="icon-large icon-<?php echo $item['icon'];?>"></span>
 			<h3><?php echo $item['title'];?></h3>
 		</a>
