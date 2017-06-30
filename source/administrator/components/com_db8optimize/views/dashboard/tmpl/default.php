@@ -11,7 +11,7 @@
 defined('_JEXEC') or die;
 
 $document = JFactory::getDocument();
-$document->addStyleSheet(JURI::root() . 'media/com_db8optimize/css/style.css');
+$document->addStyleSheet('components/com_db8optimize/assets/style.css');
 ?>
 
 <div id="j-sidebar-container" class="span2">

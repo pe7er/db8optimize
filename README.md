@@ -15,4 +15,5 @@ Under Components > db8 Optimize Site you can select one of the 6 areas, and view
 When you click one of the test tools, it will open the external website in a new window, using your website to get tested.
 
 Download: https://db8.eu/download/component/db8-optimize-site
+
 Joomla Extensions Directory: https://extensions.joomla.org/extension/db8-optimize-site/   
